@@ -1,0 +1,83 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+}
+
+#calculadora{
+  display: grid;
+  width: 300px;
+  height: 400px;
+  grid-template-rows: auto auto auto auto;
+  background: #9e9c9c;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 1px solid black;
+  transition: all .2s linear;
+}
+
+#operation{
+  font-size: 25px;
+  border: 1px solid black;
+}
+
+#operation:focus{
+  border: none;
+  box-shadow: 0px 0px 5px #444 inset;
+}
+
+.row{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+
+.btn{
+  width: 50px;
+  height: 50px;
+  margin: 10px;
+  border-radius: 40%;
+  font-size: 30px;
+  text-align: center;
+  line-height: 50px;
+  border: 1px solid black;
+  transition: all .2s linear;
+}
+
+.btn:hover{
+  box-shadow: 0px 0px 5px #444 inset;
+}
+
+.btn-equal{
+  width: 50px;
+  height: 50px;
+  margin: 10px;
+  border-radius: 40%;
+  font-size: 30px;
+  text-align: center;
+  line-height: 50px;
+  border: 1px solid black;
+  transition: all .2s linear;
+}
+
+.btn-equal:hover{
+  box-shadow: 0px 0px 5px #444 inset;
+}
+
+.btn-delete{
+  width: 50px;
+  height: 50px;
+  margin: 10px;
+  border-radius: 40%;
+  font-size: 30px;
+  text-align: center;
+  line-height: 50px;
+  border: 1px solid black;
+  transition: all .2s linear;
+}
+
+.btn-delete:hover{
+  box-shadow: 0px 0px 5px #444 inset;
+}
