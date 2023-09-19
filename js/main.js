@@ -1,7 +1,7 @@
 let btns = document.querySelectorAll(".btn")
 let operation = document.querySelector("#operation")
-let btnEqual = document.querySelector(".btn-equal")
-let btnDelete = document.querySelector(".btn-delete")
+let btnEqual = document.querySelector("<3btn-equal")
+let btnDelete = document.querySelector("#btn-delete")
 
 for(let btn of btns){
   btn.addEventListener("click", e => {
